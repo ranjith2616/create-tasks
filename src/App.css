@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  align-items: center;
+}
+.form-container {
+  width: 80vh;
+  height: 100vh;
+  background-color: #131213;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-top: 15vh;
+}
+.input-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8px;
+}
+.label {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+.input-entry {
+  height: 35px;
+  padding: 10px;
+  width: 50vh;
+  outline: none;
+  border: 0;
+  border-radius: 2px;
+}
+.add-button {
+  border: 0;
+  border-radius: 10px;
+  background-color: #f3aa4e;
+  color: #fff;
+  font-weight: 600;
+  height: 35px;
+  padding: 10px;
+  width: 20vh;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.tags-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vh;
+  padding: 10px;
+}
+.tag-heading {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.tags-list-container {
+  list-style-type: none;
+  padding-left: 0;
+
+  display: flex;
+  align-items: center;
+}
+.tag-button {
+  border: 1px solid #f3aa4e;
+  color: #fff;
+  background-color: transparent;
+  height: 35px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+.tag-active-btn {
+  background-color: #f3aa4e;
+}
+.tasks-list-container {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 30px;
+}
+.task-item-card {
+  background: #323f4b;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tag-item {
+  background-color: #f3aa4e;
+  color: #fff;
+  height: 35px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.no-task-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 20vh;
+}
+.no-task-text {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Roboto';
+}
